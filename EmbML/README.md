@@ -22,7 +22,7 @@ JavaObj library must be installed <https://pypi.org/project/javaobj-py3/>
 
 ```
 Options:	
-		-fxp:  use fixed point Qn.m (n integer bits ans m fractional bits) representation in all operations
+		-fxp:  use fixed point Qn.m (n integer bits and m fractional bits) representation in all operations
 ```
 
 If fixed-point representation is used, *FixedNum.h* must be included in the same folder of the classifier file.
