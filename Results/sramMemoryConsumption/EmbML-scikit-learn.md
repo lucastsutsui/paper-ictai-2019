@@ -3,32 +3,32 @@ The tables below show SRAM memory consumption (in bytes) for EmbML's classifiers
 #### ATmega2560  (floating-point representation)
 |                   |  SVM  | Dec. Tree |  MLP  | Log. Reg. |
 |-------------------|:-----:|:---------:|:-----:|:---------:|
-| Aedes aegypti-sex |  1576 |    4176   | 18848 |    1576   |
-| Asfault-roads     |  2364 |    4626   | 28950 |    2364   |
-| Asfault-streets   |  2626 |    4864   | 29358 |    2626   |
+| Aedes aegypti-sex |  1576 |    4176   |   -   |    1576   |
+| Asfault-roads     |  2364 |    4626   |   -   |    2364   |
+| Asfault-streets   |  2626 |    4864   |   -   |    2626   |
 | GasSensorArray    |  4674 |    6196   |   -   |    4674   |
-| PenDigits         |  1462 |   18968   |  8754 |    1462   |
-| HAR               | 16798 |    7820   |   -   |   16798   |
+| PenDigits         |  1462 |     -     |   -   |    1462   |
+| HAR               |   -   |     -     |   -   |     -     |
 
 #### ATmega2560  (fixed-point Q21.10 representation)
 |                   |  SVM  | Dec. Tree |  MLP  | Log. Reg. |
 |-------------------|:-----:|:---------:|:-----:|:---------:|
-| Aedes aegypti-sex |  1576 |    4176   | 18848 |    1576   |
-| Asfault-roads     |  2364 |    4626   | 28950 |    2364   |
-| Asfault-streets   |  2626 |    4864   | 29358 |    2626   |
+| Aedes aegypti-sex |  1576 |    4176   |   -   |    1576   |
+| Asfault-roads     |  2364 |    4626   |   -   |    2364   |
+| Asfault-streets   |  2626 |    4864   |   -   |    2626   |
 | GasSensorArray    |  4674 |    6196   |   -   |    4674   |
-| PenDigits         |  1462 |   18968   |  8754 |    1462   |
-| HAR               | 16798 |    7820   |   -   |   16798   |
+| PenDigits         |  1462 |     -     |   -   |    1462   |
+| HAR               |   -   |     -     |   -   |     -     |
 
 #### ATmega2560  (fixed-point Q11.4 representation)
 |                   |  SVM | Dec. Tree |  MLP  | Log. Reg. |
 |-------------------|:----:|:---------:|:-----:|:---------:|
-| Aedes aegypti-sex | 1318 |    3436   |  9960 |    1318   |
-| Asfault-roads     | 1714 |    3762   | 15012 |    1714   |
-| Asfault-streets   | 1846 |    3948   | 15218 |    1846   |
-| GasSensorArray    | 2868 |    4912   | 28344 |    2868   |
-| PenDigits         | 1264 |   14980   |  4916 |    1264   |
-| HAR               | 8930 |    5794   |   -   |    8930   |
+| Aedes aegypti-sex | 1318 |    3436   |   -   |    1318   |
+| Asfault-roads     | 1714 |    3762   |   -   |    1714   |
+| Asfault-streets   | 1846 |    3948   |   -   |    1846   |
+| GasSensorArray    | 2868 |    4912   |   -   |    2868   |
+| PenDigits         | 1264 |     -     |  4916 |    1264   |
+| HAR               |  -   |     -     |   -   |     -     |
 
 #### MK20DX256VLH7  (floating-point representation)
 |                   |  SVM | Dec. Tree |  MLP | Log. Reg. |

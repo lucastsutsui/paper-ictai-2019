@@ -4,31 +4,31 @@ The tables below show SRAM memory consumption (in bytes) for EmbML's classifiers
 |                   |  SVM  | Dec. Tree |  MLP  | Log. Reg. |
 |-------------------|:-----:|:---------:|:-----:|:---------:|
 | Aedes aegypti-sex |  1754 |    2410   |  7002 |    1488   |
-| Asfault-roads     |  3416 |    2858   | 14328 |    2230   |
-| Asfault-streets   |  4462 |    3256   | 14538 |    2492   |
-| GasSensorArray    | 10380 |    4420   |   -   |    4422   |
-| PenDigits         |  2826 |    9490   |  2354 |    1434   |
-| HAR               | 41556 |    6006   |   -   |   15680   |
+| Asfault-roads     |  3416 |    2858   |   -   |    2230   |
+| Asfault-streets   |  4462 |    3256   |   -   |    2492   |
+| GasSensorArray    |   -   |    4420   |   -   |    4422   |
+| PenDigits         |  2826 |     -     |  2354 |    1434   |
+| HAR               |   -   |     -     |   -   |     -     |
 
 #### ATmega2560  (fixed-point Q21.10 representation)
 |                   |  SVM  | Dec. Tree |  MLP  | Log. Reg. |
 |-------------------|:-----:|:---------:|:-----:|:---------:|
 | Aedes aegypti-sex |  1754 |    2410   |  7002 |    1488   |
-| Asfault-roads     |  3416 |    2858   | 14328 |    2230   |
-| Asfault-streets   |  4462 |    3256   | 14538 |    2492   |
-| GasSensorArray    | 10380 |    4420   |   -   |    4422   |
-| PenDigits         |  2826 |    9490   |  2354 |    1434   |
-| HAR               | 41556 |    6006   |   -   |   15680   |
+| Asfault-roads     |  3416 |    2858   |   -   |    2230   |
+| Asfault-streets   |  4462 |    3256   |   -   |    2492   |
+| GasSensorArray    |   -   |    4420   |   -   |    4422   |
+| PenDigits         |  2826 |     -     |  2354 |    1434   |
+| HAR               |   -   |     -     |   -   |     -     |
 
 #### ATmega2560  (fixed-point Q11.4 representation)
 |                   |  SVM  | Dec. Tree |  MLP  | Log. Reg. |
 |-------------------|:-----:|:---------:|:-----:|:---------:|
 | Aedes aegypti-sex |  1410 |    2062   |  4620 |    1316   |
-| Asfault-roads     |  2246 |    2386   |  8882 |    1710   |
-| Asfault-streets   |  2772 |    2696   |  9012 |    1842   |
-| GasSensorArray    |  5736 |    3532   | 29992 |    2874   |
+| Asfault-roads     |  2246 |    2386   |   -   |    1710   |
+| Asfault-streets   |  2772 |    2696   |   -   |    1842   |
+| GasSensorArray    |  5736 |    3532   |   -   |    2874   |
 | PenDigits         |  1962 |    7606   |  1844 |    1254   |
-| HAR               | 21324 |    4344   |   -   |    8936   |
+| HAR               |   -   |    4344   |   -   |     -     |
 
 
 #### MK20DX256VLH7  (floating-point representation)
