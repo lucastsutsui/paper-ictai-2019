@@ -1,3 +1,7 @@
+## Note
+**You can find a maintained version of EmbML at** <https://github.com/lucastsutsui/EmbML> and <https://pypi.org/project/embml/>
+
+## Description
 Backup of implementations for the EmbML tool to convert WEKA or scikit-learn trained classifiers into code to run in low-cost embedded systems.
 
 JavaObj library must be installed <https://pypi.org/project/javaobj-py3/>
